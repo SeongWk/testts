@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9960D93275F1DB400026385 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9960D92275F1DB400026385 /* AppDelegate.swift */; };
+		A9960D95275F1DB400026385 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9960D94275F1DB400026385 /* SceneDelegate.swift */; };
+		A9960D97275F1DB400026385 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9960D96275F1DB400026385 /* ViewController.swift */; };
+		A9960D9A275F1DB400026385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9960D98275F1DB400026385 /* Main.storyboard */; };
+		A9960D9C275F1DB700026385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9960D9B275F1DB700026385 /* Assets.xcassets */; };
+		A9960D9F275F1DB700026385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9960D9D275F1DB700026385 /* LaunchScreen.storyboard */; };
+		A9960DAA275F1DB700026385 /* SceneTransTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9960DA9275F1DB700026385 /* SceneTransTests.swift */; };
+		A9960DB4275F1DB800026385 /* SceneTransUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9960DB3275F1DB800026385 /* SceneTransUITests.swift */; };
+		A9960DB6275F1DB800026385 /* SceneTransUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9960DB5275F1DB800026385 /* SceneTransUITestsLaunchTests.swift */; };
+		A9960DC3275F24ED00026385 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9960DC2275F24EC00026385 /* SecondViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9960DA6275F1DB700026385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9960D87275F1DB400026385 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9960D8E275F1DB400026385;
+			remoteInfo = SceneTrans;
+		};
+		A9960DB0275F1DB800026385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9960D87275F1DB400026385 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9960D8E275F1DB400026385;
+			remoteInfo = SceneTrans;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9960D8F275F1DB400026385 /* SceneTrans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SceneTrans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9960D92275F1DB400026385 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9960D94275F1DB400026385 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A9960D96275F1DB400026385 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9960D99275F1DB400026385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9960D9B275F1DB700026385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9960D9E275F1DB700026385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9960DA0275F1DB700026385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9960DA5275F1DB700026385 /* SceneTransTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SceneTransTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9960DA9275F1DB700026385 /* SceneTransTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneTransTests.swift; sourceTree = "<group>"; };
+		A9960DAF275F1DB800026385 /* SceneTransUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SceneTransUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9960DB3275F1DB800026385 /* SceneTransUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneTransUITests.swift; sourceTree = "<group>"; };
+		A9960DB5275F1DB800026385 /* SceneTransUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneTransUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A9960DC2275F24EC00026385 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9960D8C275F1DB400026385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9960DA2275F1DB700026385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9960DAC275F1DB800026385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9960D86275F1DB400026385 = {
+			isa = PBXGroup;
+			children = (
+				A9960D91275F1DB400026385 /* SceneTrans */,
+				A9960DA8275F1DB700026385 /* SceneTransTests */,
+				A9960DB2275F1DB800026385 /* SceneTransUITests */,
+				A9960D90275F1DB400026385 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9960D90275F1DB400026385 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9960D8F275F1DB400026385 /* SceneTrans.app */,
+				A9960DA5275F1DB700026385 /* SceneTransTests.xctest */,
+				A9960DAF275F1DB800026385 /* SceneTransUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9960D91275F1DB400026385 /* SceneTrans */ = {
+			isa = PBXGroup;
+			children = (
+				A9960D92275F1DB400026385 /* AppDelegate.swift */,
+				A9960D94275F1DB400026385 /* SceneDelegate.swift */,
+				A9960D96275F1DB400026385 /* ViewController.swift */,
+				A9960D98275F1DB400026385 /* Main.storyboard */,
+				A9960DC2275F24EC00026385 /* SecondViewController.swift */,
+				A9960D9B275F1DB700026385 /* Assets.xcassets */,
+				A9960D9D275F1DB700026385 /* LaunchScreen.storyboard */,
+				A9960DA0275F1DB700026385 /* Info.plist */,
+			);
+			path = SceneTrans;
+			sourceTree = "<group>";
+		};
+		A9960DA8275F1DB700026385 /* SceneTransTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9960DA9275F1DB700026385 /* SceneTransTests.swift */,
+			);
+			path = SceneTransTests;
+			sourceTree = "<group>";
+		};
+		A9960DB2275F1DB800026385 /* SceneTransUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9960DB3275F1DB800026385 /* SceneTransUITests.swift */,
+				A9960DB5275F1DB800026385 /* SceneTransUITestsLaunchTests.swift */,
+			);
+			path = SceneTransUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9960D8E275F1DB400026385 /* SceneTrans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9960DB9275F1DB800026385 /* Build configuration list for PBXNativeTarget "SceneTrans" */;
+			buildPhases = (
+				A9960D8B275F1DB400026385 /* Sources */,
+				A9960D8C275F1DB400026385 /* Frameworks */,
+				A9960D8D275F1DB400026385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SceneTrans;
+			productName = SceneTrans;
+			productReference = A9960D8F275F1DB400026385 /* SceneTrans.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9960DA4275F1DB700026385 /* SceneTransTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9960DBC275F1DB800026385 /* Build configuration list for PBXNativeTarget "SceneTransTests" */;
+			buildPhases = (
+				A9960DA1275F1DB700026385 /* Sources */,
+				A9960DA2275F1DB700026385 /* Frameworks */,
+				A9960DA3275F1DB700026385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9960DA7275F1DB700026385 /* PBXTargetDependency */,
+			);
+			name = SceneTransTests;
+			productName = SceneTransTests;
+			productReference = A9960DA5275F1DB700026385 /* SceneTransTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9960DAE275F1DB800026385 /* SceneTransUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9960DBF275F1DB800026385 /* Build configuration list for PBXNativeTarget "SceneTransUITests" */;
+			buildPhases = (
+				A9960DAB275F1DB800026385 /* Sources */,
+				A9960DAC275F1DB800026385 /* Frameworks */,
+				A9960DAD275F1DB800026385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9960DB1275F1DB800026385 /* PBXTargetDependency */,
+			);
+			name = SceneTransUITests;
+			productName = SceneTransUITests;
+			productReference = A9960DAF275F1DB800026385 /* SceneTransUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9960D87275F1DB400026385 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					A9960D8E275F1DB400026385 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					A9960DA4275F1DB700026385 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A9960D8E275F1DB400026385;
+					};
+					A9960DAE275F1DB800026385 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A9960D8E275F1DB400026385;
+					};
+				};
+			};
+			buildConfigurationList = A9960D8A275F1DB400026385 /* Build configuration list for PBXProject "SceneTrans" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9960D86275F1DB400026385;
+			productRefGroup = A9960D90275F1DB400026385 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9960D8E275F1DB400026385 /* SceneTrans */,
+				A9960DA4275F1DB700026385 /* SceneTransTests */,
+				A9960DAE275F1DB800026385 /* SceneTransUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9960D8D275F1DB400026385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9960D9F275F1DB700026385 /* LaunchScreen.storyboard in Resources */,
+				A9960D9C275F1DB700026385 /* Assets.xcassets in Resources */,
+				A9960D9A275F1DB400026385 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9960DA3275F1DB700026385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9960DAD275F1DB800026385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9960D8B275F1DB400026385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9960DC3275F24ED00026385 /* SecondViewController.swift in Sources */,
+				A9960D97275F1DB400026385 /* ViewController.swift in Sources */,
+				A9960D93275F1DB400026385 /* AppDelegate.swift in Sources */,
+				A9960D95275F1DB400026385 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9960DA1275F1DB700026385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9960DAA275F1DB700026385 /* SceneTransTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9960DAB275F1DB800026385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9960DB6275F1DB800026385 /* SceneTransUITestsLaunchTests.swift in Sources */,
+				A9960DB4275F1DB800026385 /* SceneTransUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9960DA7275F1DB700026385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9960D8E275F1DB400026385 /* SceneTrans */;
+			targetProxy = A9960DA6275F1DB700026385 /* PBXContainerItemProxy */;
+		};
+		A9960DB1275F1DB800026385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9960D8E275F1DB400026385 /* SceneTrans */;
+			targetProxy = A9960DB0275F1DB800026385 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9960D98275F1DB400026385 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9960D99275F1DB400026385 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9960D9D275F1DB700026385 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9960D9E275F1DB700026385 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9960DB7275F1DB800026385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9960DB8275F1DB800026385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9960DBA275F1DB800026385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SceneTrans/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SceneTrans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A9960DBB275F1DB800026385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SceneTrans/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SceneTrans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A9960DBD275F1DB800026385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SceneTransTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SceneTrans.app/SceneTrans";
+			};
+			name = Debug;
+		};
+		A9960DBE275F1DB800026385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SceneTransTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SceneTrans.app/SceneTrans";
+			};
+			name = Release;
+		};
+		A9960DC0275F1DB800026385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SceneTransUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SceneTrans;
+			};
+			name = Debug;
+		};
+		A9960DC1275F1DB800026385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SceneTransUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SceneTrans;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9960D8A275F1DB400026385 /* Build configuration list for PBXProject "SceneTrans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9960DB7275F1DB800026385 /* Debug */,
+				A9960DB8275F1DB800026385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9960DB9275F1DB800026385 /* Build configuration list for PBXNativeTarget "SceneTrans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9960DBA275F1DB800026385 /* Debug */,
+				A9960DBB275F1DB800026385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9960DBC275F1DB800026385 /* Build configuration list for PBXNativeTarget "SceneTransTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9960DBD275F1DB800026385 /* Debug */,
+				A9960DBE275F1DB800026385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9960DBF275F1DB800026385 /* Build configuration list for PBXNativeTarget "SceneTransUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9960DC0275F1DB800026385 /* Debug */,
+				A9960DC1275F1DB800026385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9960D87275F1DB400026385 /* Project object */;
+}
